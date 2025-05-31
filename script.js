@@ -108,7 +108,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // This would require additional implementation with Intersection Observer API
     // or a library like AOS (Animate On Scroll)
     
-    // Current year for footer
+    // Update current year for both footers
+    const currentYear = new Date().getFullYear();
     document.querySelector('.footer-bottom p').innerHTML = 
-        document.querySelector('.footer-bottom p').innerHTML.replace('2023', new Date().getFullYear());
+        document.querySelector('.footer-bottom p').innerHTML.replace(/\d{4}/, currentYear);
+    document.querySelector('.simple-footer p').innerHTML = 
+        document.querySelector('.simple-footer p').innerHTML.replace(/\d{4}/, currentYear);
 });
