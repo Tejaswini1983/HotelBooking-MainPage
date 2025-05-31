@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Stays - Premium Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="gold-text">Luxury</span><span class="red-text">Stays</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn-outline">Login</button>
+                <button class="btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience <span class="gold-text">Luxury</span> Like Never Before</h1>
+                <p>Book your stay at the finest hotels worldwide with exclusive deals and premium services.</p>
+                <div class="search-box">
+                    <div class="search-tabs">
+                        <button class="tab active">Hotels</button>
+                        <button class="tab">Flights</button>
+                        <button class="tab">Packages</button>
+                    </div>
+                    <div class="search-form">
+                        <div class="form-group">
+                            <label for="destination"><i class="fas fa-map-marker-alt gold-text"></i> Destination</label>
+                            <input type="text" id="destination" placeholder="Where are you going?">
+                        </div>
+                        <div class="form-group">
+                            <label for="check-in"><i class="fas fa-calendar-alt gold-text"></i> Check In</label>
+                            <input type="date" id="check-in">
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out"><i class="fas fa-calendar-alt gold-text"></i> Check Out</label>
+                            <input type="date" id="check-out">
+                        </div>
+                        <div class="form-group">
+                            <label for="guests"><i class="fas fa-user gold-text"></i> Guests</label>
+                            <select id="guests">
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5+">5+ Guests</option>
+                            </select>
+                        </div>
+                        <button class="btn-primary search-btn">Search <i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose <span class="gold-text">LuxuryStays</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon gold-bg">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Premium Selection</h3>
+                    <p>Only the finest hotels that meet our strict quality standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon gold-bg">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We'll match or beat any competitor's price for the same room.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon gold-bg">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our concierge service is available anytime to assist you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon gold-bg">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Exclusive Deals</h3>
+                    <p>Special offers and perks available only to our members.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-destinations">
+        <div class="container">
+            <h2>Popular <span class="gold-text">Destinations</span></h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4" alt="Paris">
+                    <div class="overlay">
+                        <h3>Paris</h3>
+                        <p>Starting from $199/night</p>
+                        <button class="btn-outline">Explore</button>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1538970272646-f61fabb3bfdf" alt="New York">
+                    <div class="overlay">
+                        <h3>New York</h3>
+                        <p>Starting from $249/night</p>
+                        <button class="btn-outline">Explore</button>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1539667468225-eebb663053e6" alt="Tokyo">
+                    <div class="overlay">
+                        <h3>Tokyo</h3>
+                        <p>Starting from $179/night</p>
+                        <button class="btn-outline">Explore</button>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be" alt="Dubai">
+                    <div class="overlay">
+                        <h3>Dubai</h3>
+                        <p>Starting from $299/night</p>
+                        <button class="btn-outline">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our <span class="gold-text">Guests Say</span></h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="quote">"The luxury experience was beyond my expectations. The attention to detail was impeccable."</div>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Frequent Traveler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">"I've never experienced such excellent service. The gold and red theme throughout the hotels is stunning."</div>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Michael Chen">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Business Executive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">"The price guarantee gave me peace of mind, and the rooms were even more beautiful than pictured."</div>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Emily Rodriguez">
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Travel Blogger</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our <span class="gold-text">Newsletter</span></h2>
+                <p>Get exclusive deals and updates on our luxury properties worldwide.</p>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="gold-text">Luxury</span><span class="red-text">Stays</span>
+                    </div>
+                    <p>Your gateway to the world's finest luxury accommodations.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Rooms</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt gold-text"></i> 123 Luxury Avenue, Suite 100</li>
+                        <li><i class="fas fa-phone gold-text"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope gold-text"></i> info@luxurystays.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LuxuryStays. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
